@@ -83,7 +83,7 @@ python main.py
 
 ---
 
-## 📄 License
+## License
 
 MIT
 
