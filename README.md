@@ -5,7 +5,7 @@ This approach enables smoother and more realistic BCI control compared to tradit
 
 ---
 
-## 🚀 Overview
+## Overview
 
 This project implements a full BCI pipeline:
 
@@ -18,7 +18,7 @@ Instead of discrete predictions, this system generates **smooth control signals*
 
 ---
 
-## 🧠 Key Idea
+## Key Idea
 
 Most BCI systems use `predict()`.
 
@@ -30,7 +30,7 @@ raw_move = (proba_right - proba_left) - bias
 
 ---
 
-## 🎛️ Control Parameters
+## Control Parameters
 
 - `speed` → base movement speed  
 - `gain` → amplifies the control signal  
@@ -48,7 +48,7 @@ Example values:
 
 ---
 
-## ▶️ Installation & Run
+## Installation & Run
 
 ```bash
 pip install -r requirements.txt
@@ -57,7 +57,7 @@ python main.py
 
 ---
 
-## 🖥️ Features
+## Features
 
 - Continuous cursor control (not binary)
 - Bias correction and confidence filtering
@@ -66,7 +66,7 @@ python main.py
 
 ---
 
-## ⚙️ Tech Stack
+## Requirements
 
 - Python
 - MNE
@@ -75,7 +75,7 @@ python main.py
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 - Offline simulation (no real-time EEG)
 - Single subject dataset
